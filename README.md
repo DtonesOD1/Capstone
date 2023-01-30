@@ -46,7 +46,13 @@ Here are visuals that show the predicted average number of units that will be so
 
 
 <img width="826" alt="Screen Shot 2023-01-29 at 9 31 15 PM" src="https://user-images.githubusercontent.com/93612651/215381759-7e3d60f8-41a8-45d2-8554-b62aef523322.png">
-
+The metric used to validate these models was MSE and the get_forecast produced the best results for all 3 models:<br></br>
+Black Model MSE: 6.7
+<br></br>
+Blue Model MSE: 4.95
+<br></br>
+Red Model MSE : 4.51
+<br></br>
 A lot of effort went into this and I hope it can be useful for FireMaul Tools!
 
 #### Repo Structure
