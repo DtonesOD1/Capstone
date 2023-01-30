@@ -21,8 +21,8 @@ Fire Maul Tools is a firefighter-owned company serving firefighters, tactical te
 A look at the distribution of grip kits sold('Qty)by color:
 <img width="954" alt="Screen Shot 2023-01-29 at 8 36 27 PM" src="https://user-images.githubusercontent.com/93612651/215375793-e5a0ca18-6942-4644-8ba2-86412719073b.png">
 
-
-After the data was cleaned and we had a grasp of what the data entailed we began the modeling process. I was attempting to be able to predict the average number of units sold per week using the quantity column. After an initial run at it, it was decided to remove the outliers and to split the data into a 80/20 train test set. With the dataset being 5 years long it was easy enough to make the most recent year as the test set. After that the dataset had be entered into datimetimeindex, formatted to W-sat, which sets the dates to weeks beginning on Saturday
+## <center> Data Prep</center>
+After the data was cleaned and we had a grasp of what the data entailed we began to prepare for the modeling process. I was attempting to be able to predict the average number of units sold per week using the quantity column. After an initial run at it, it was decided to remove the outliers and to split the data into a 80/20 train test set. With the dataset being 5 years long it was easy enough to make the most recent year as the test set. After that the dataset had be entered into datimetimeindex, formatted to W-sat, which sets the dates to weeks beginning on Saturday
 
 <img width="889" alt="Screen Shot 2023-01-29 at 8 53 03 PM" src="https://user-images.githubusercontent.com/93612651/215379681-8bedb6d8-5008-49c2-8c22-282909a63482.png">
 
@@ -38,7 +38,11 @@ After the data was fit we used prediction methods such as 'One-step ahead', 'Dyn
 
 <img width="882" alt="Screen Shot 2023-01-29 at 9 25 02 PM" src="https://user-images.githubusercontent.com/93612651/215381085-728ef2eb-ebe2-4a37-8af0-e0e6e9198646.png">
 
-This method was performed 3 times for the top selling grip kit colors, which were Black, Red, and Blue, these 3 made up over 60% of sales. Therefore there are 3 SARIMA time series models in the notebook. Here are visuals that show the predicted average number of units that will be sold each week for the next year, broken down by color.
+This method was performed 3 times for the top selling grip kit colors, which were Black, Red, and Blue, these 3 made up over 60% of sales. Therefore there are 3 SARIMA time series models in the notebook. 
+
+## <center> Evaluation </center>
+After the models were run and the forecasting methods compared, it was decided that the 'get_forecast' method produced the best results for all 3 models.
+Here are visuals that show the predicted average number of units that will be sold each week for the next year, broken down by color.
 
 
 <img width="826" alt="Screen Shot 2023-01-29 at 9 31 15 PM" src="https://user-images.githubusercontent.com/93612651/215381759-7e3d60f8-41a8-45d2-8554-b62aef523322.png">
