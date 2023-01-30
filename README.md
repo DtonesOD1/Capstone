@@ -49,6 +49,14 @@ Here are visuals that show the predicted average number of units that will be so
 
 A lot of effort went into this and I hope it can be useful for FireMaul Tools!
 
+#### Repo Structure
+
+### ---Jupyter Notebook
+### ---Notebook PDF
+### ---Presentation PDF
+### ---Numbers CSV(sales sheet)
+### ---Read ME
+
 Contact Info:
 Brian O'Donnell
 briodonn1021@gmail.com
