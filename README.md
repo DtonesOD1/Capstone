@@ -54,8 +54,10 @@ A lot of effort went into this and I hope it can be useful for FireMaul Tools!
 ### ---Jupyter Notebook
 ### ---Notebook PDF
 ### ---Presentation PDF
+### ---READMe PDF
+### ---READMe
 ### ---Numbers CSV(sales sheet)
-### ---Read ME
+
 
 Contact Info:
 Brian O'Donnell
