@@ -58,9 +58,9 @@ A lot of effort went into this and I hope it can be useful for FireMaul Tools!
 #### Repo Structure
 
 ### ---Jupyter Notebook
-### ---Notebook PDF
 ### ---Presentation PDF
 ### ---READMe PDF
+### ---Notebook PDF
 ### ---READMe
 ### ---Numbers CSV(sales sheet)
 
